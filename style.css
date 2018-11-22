@@ -1,0 +1,195 @@
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/091/913/non_2x/vector-question-mark-background.jpg");
+}
+#un_div{ 
+    display : block;
+    text-align: center;
+}
+#dos_div{ 
+    display : none;
+    text-align: center;
+}
+#categorias{ 
+    display : none;
+    text-align: center;
+}
+
+h1{
+    color: #800080;
+    text-align: center;
+    font-size: 35px;
+    font-family: Georgia;
+}
+pre {
+    color: #4682B4;
+    text-align: center;
+    font-size: 27px;
+    font-family: Georgia;
+}
+h2{
+    color: #800080;
+    text-align: center;
+    font-size: 22px;
+    font-family: helvetica roman;
+}
+
+h3{
+    color: #800080;
+    text-align: center;
+    font-size: 23px;
+    font-family: helvetica;
+}
+
+h4{
+    color: #4682B4;
+    text-align: center;
+    font-size: 20px;
+    font-family: helvetica;
+  
+}
+
+h5{
+    color: #800080;
+    text-align: center;
+    font-size: 22px;
+    font-family: helvetica;
+}
+
+h6{
+    color: #E86F15;
+    text-align: center;
+    font-size: 23px;
+    font-family: helvetica medium;
+}
+
+h7{
+  
+}
+
+#nombreJugador{
+    font-size:13px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 200px;
+    background-color: white;
+    border-radius: 6px;
+    border: 2px solid #4682B4;
+  }
+
+#boton1{
+    font-size:12px;
+    text-align: center;
+    font-family:verdana;
+    font-weight:bold;
+    padding:8px;
+    border-radius: 6px;
+    border: 2px solid #4682B4;
+  
+}
+
+#boton2{
+    font-size:12px;
+    text-align: center;
+    font-family:verdana;
+    font-weight:bold;
+    padding:8px;
+    border-radius: 6px;
+    border: 2px solid #4682B4;
+}
+
+#boton3{
+    font-size:12px;
+    text-align: center;
+    font-family:verdana;
+    font-weight:bold;
+    padding:8px;
+    border-radius: 6px;
+    border: 2px solid #C45208;
+}
+
+#boton4{
+    font-size:12px;
+    text-align: center;
+    font-family:verdana;
+    font-weight:bold;
+    padding:8px;
+    border-radius: 6px;
+    border: 2px solid #C45208;
+}
+
+#boton5{
+    font-size:12px;
+    text-align: center;
+    font-family:verdana;
+    font-weight:bold;
+    padding:8px;
+    border-radius: 6px;
+    border: 2px solid #C45208;
+}
+
+p {
+    font-family: verdana;
+    text-align: center;
+    font-size: 20px;
+}
+
+#categoriaA{ 
+    display : none; 
+}
+
+#categoriaB{ 
+    display : none; 
+}
+#volverJugar{ 
+    display : none; 
+}
+
+#pregunta1{
+    color: #E86F15;
+    text-align: center;
+}
+
+#pregunta2{ 
+    display : none;
+    text-align: center;
+    color: #E86F15;
+}
+
+#pregunta3{ 
+    display : none; 
+    text-align: center;
+    color: #E86F15;
+}
+
+#pregunta4{ 
+    color: #E86F15;
+    text-align: center;
+}
+
+#pregunta5{ 
+    display : none;
+    color: #E86F15;
+    text-align: center;
+}
+
+#pregunta6{
+   display : none;
+   text-align: center;
+   color: #E86F15;
+}
+
+#resultadostyle{
+    color: #800080;
+    text-align: center;
+    font-size: 25px;
+    font-family: helvetica roman;
+}
+#jugarDeNuevo{
+  font-size:10px;
+    text-align: center;
+    font-family:verdana;
+    font-weight:bold;
+    padding:8px;
+    border-radius: 6px;
+    border: 2px solid 
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia_Quizzy</title>
+
+
+
+      <link rel="stylesheet" href="css/style.css">
+
+    <script  src="js/index.js"></script>
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <div  id="un_div">
+      <h1>Bienvenido a Quizzy!</h1>
+      <h2> <pre> Acá puedes elegir entre 2 Trivias con 3 preguntas cada una.
+
+      Te animas??
+      Para comenzar ingresa tu nombre </pre>
+      </h2>
+      <input type="text" id="nombreJugador" value="">
+      <button onclick="obtenerNombre()" id="boton1">Ingresar</button>
+    </div>
+    <div id="dos_div">
+         <h3 id="nombre"></h3>
+         <h4><pre>Primero elige una categoría, luego responde a las tres preguntas <br> y al final obtendrás tu puntaje!
+
+         Elige una categoría para comenzar
+           </pre></h4>
+    </div>
+
+    <div id="categorias">
+        <button onclick="categoriaA()" id="boton2">Olimpiadas</button>
+        <button onclick="categoriaB()" id="boton3">Los Simpson</button>
+    </div>
+
+    <div id="categoriaA">
+
+    <div id="pregunta1">
+      <h6>Elije una de las alternativas</h6>
+          <img class="irc_mi" src="https://cdn.dribbble.com/users/1857592/screenshots/3869055/olympic.gif" alt="Resultado de imagen para olimpiadas imagenes jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="550" height="338" style="margin-top: 8px;">
+
+		 <p>¿Cuál de estos deportes debutará en las olimpiadas?</p>
+
+		 <input type="radio" name="respuesta1" id="r1" >Karate</input>
+		 <input type="radio" name="respuesta1" id="r2" >Tenis de Mesa</input>
+			      <input type="radio" name="respuesta1" id="r3" >Boxeo</input>
+            <button onclick="pregunta1()" id="boton4">Siguiente</button>
+	      </div>
+
+	        <div id="pregunta2">
+            <h6>Elije una de las alternativas</h6>
+            <img class="irc_mi" src="https://cdn.dribbble.com/users/358029/screenshots/2880187/olympic_rings_of_fire.gif" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="550" height="340" style="margin-top: 0px;" alt="Resultado de imagen para olimpiadas imagenes jpg">
+		         <p>¿Cuántos países participan Actualmente en los Juegos Olimpicos?</p>
+             <input type="radio" name="respuesta2" id="r4" >165</input>
+             <input type="radio" name="respuesta2" id="r5" >148</input>
+             <input type="radio" name="respuesta2" id="r6" >206</input>
+            <button onclick="pregunta2()" id="boton4">Siguiente</button>
+	       </div>
+
+	      <div id="pregunta3">
+          <h6>Elije una de las alternativas</h6>
+          <img class="irc_mi" src="http://www.laici.va/content/laici/es/sezioni/donna/notizie/le-donne-alle-olimpiadi/_jcr_content/parCenter/textimage/image.img.jpg/1432038209195.jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="500" height="340" style="margin-top: 0px;">
+		        <p>¿Cada cuánto tiempo se realizan las olimpiadas?</p>
+		  	    <input type="radio" name="respuesta3" id="r7">Cada 2 años</input>
+		  	    <input type="radio" name="respuesta3" id="r8">Cada 4 años</input>
+			      <input type="radio" name="respuesta3" id="r9">Cada 6 años</input>
+            <button onclick="verResultado()" id="boton5">Ver resultado</button>
+	      </div>
+
+   </div>
+
+  <div id="categoriaB">
+
+
+  <div id="pregunta4">
+        <h6>Elije una de las alternativas</h6>
+        <img class="irc_mi" src="https://media.metrolatam.com/2018/06/28/simpsonfallanprofeciamundial1-5f35cb6c53c20dae30c308f786fce222-1200x600.jpg" alt="Resultado de imagen para imagenes lo simpson jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="500" height="340" style="margin-top: 0px;">
+		      <p>¿Quien es el creador de los Simpson?</p>
+		    	<input type="radio" name="respuesta4" id="r10">OJ Simpson</input>
+			    <input type="radio" name="respuesta4" id="r11">Matt Groening</input>
+			    <input type="radio" name="respuesta4" id="r12">Seth Mc Farlane</input>
+          <button onclick="pregunta4()" id="boton4">Siguiente</button>
+	    </div>
+
+	    <div id="pregunta5">
+        <h6>Elije una de las alternativas</h6>
+        <img class="irc_mi" src="http://img.europapress.es/fotoweb/fotonoticia_20170419092855_640.jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="500" height="353" style="margin-top: 0px;" alt="Resultado de imagen para imagenes lo simpson jpg">
+        <p>¿En qué pueblo viven Los Simpson?
+        </p>
+           <input type="radio" name="respuesta5" id="r13">Springfield</input>
+           <input type="radio" name="respuesta5" id="r14">Simpsontown</input>
+           <input type="radio" name="respuesta5" id="r15">Wisteria Lane</input>
+           <button onclick="pregunta5()" id="boton4">Siguiente</button>
+	  </div>
+
+	   <div id="pregunta6">
+       <h6>Elije una de las alternativas</h6>
+       <img class="irc_mi" src="https://i0.wp.com/espalhafactos.com/wp-content/uploads/2016/11/Movies-That-Deserve-A-Sequel-The-Simpsons-Movie.jpg?resize=759%2C500&ssl=1" alt="Resultado de imagen para imagenes lo simpson jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="500" height="353" style="margin-top: 0px;">
+		    <p>¿En que año se estreno la serie en U.S.A?</p>
+		  	<input type="radio" name="respuesta6" id="r16">1992</input>
+		  	<input type="radio" name="respuesta6" id="r17">1995</input>
+			  <input type="radio" name="respuesta6" id="r18">1989</input>
+<button onclick="verResultado2()" id="boton5">Ver resultado</button>
+
+  </div>
+
+</div>
+  <div id="correctas"></div>
+ <div id="correctas1"></div>
+<div id="volverJugar">
+     <button onclick="jugarDeNuevo()">Volver a jugar</button>
+</div>
+  </body>
+</html
+
+
+
+
+
+
+
+
+</body>
+
+</html>
